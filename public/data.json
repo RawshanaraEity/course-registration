@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/J55Kw4W/Rectangle-2.png",
+      "title": "Product 1",
+      "description": "Description for Product 1",
+      "price": 19.99,
+      "credit": "5% cashback"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/kDH80vv/Rectangle-2-1.png",
+      "title": "Product 2",
+      "description": "Description for Product 2",
+      "price": 29.99,
+      "credit": "10% discount"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/wSm2x0y/Rectangle-2-2.png",
+      "title": "Product 3",
+      "description": "Description for Product 3",
+      "price": 49.99,
+      "credit": "Free shipping"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/8sKwqmL/Rectangle-2-3.png",
+      "title": "Product 4",
+      "description": "Description for Product 4",
+      "price": 39.99,
+      "credit": "Buy one, get one free"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/2snzsWt/Rectangle-2-4.png",
+      "title": "Product 5",
+      "description": "Description for Product 5",
+      "price": 59.99,
+      "credit": "20% off"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/g7nby9k/Rectangle-2-5.png",
+      "title": "Product 6",
+      "description": "Description for Product 6",
+      "price": 9.99,
+      "credit": "Earn loyalty points"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/TYG4fbf/Rectangle-2-6.png",
+      "title": "Product 7",
+      "description": "Description for Product 7",
+      "price": 79.99,
+      "credit": "Limited time offer"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/LgKvFTZ/Rectangle-3.png",
+      "title": "Product 8",
+      "description": "Description for Product 8",
+      "price": 69.99,
+      "credit": "15% cashback"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/Qnb8cBH/Rectangle-3-1.png",
+      "title": "Product 9",
+      "description": "Description for Product 9",
+      "price": 99.99,
+      "credit": "Special edition"
+    }
+  ]
+  
