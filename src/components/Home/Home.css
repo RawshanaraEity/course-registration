@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: white;
+}
+.card img {
+  width: 100%;
+}
+.card-title {
+  color: #1c1b1b;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-description{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    color: rgba(28, 27, 27, 0.60)
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(28, 27, 27, 0.60)
+}
+
+.card-btn {
+  width: 280px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #2f80ed;
+  background: #2f80ed;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-btn:hover{
+    background: #1968d0;
+}
+
+.cart {
+}

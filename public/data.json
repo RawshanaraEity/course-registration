@@ -2,74 +2,74 @@
     {
       "id": 1,
       "image": "https://i.ibb.co/J55Kw4W/Rectangle-2.png",
-      "title": "Product 1",
-      "description": "Description for Product 1",
-      "price": 19.99,
-      "credit": "5% cashback"
+      "title": "Introduction to C Programming",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 15000,
+      "credit": "1"
     },
     {
       "id": 2,
       "image": "https://i.ibb.co/kDH80vv/Rectangle-2-1.png",
-      "title": "Product 2",
-      "description": "Description for Product 2",
-      "price": 29.99,
-      "credit": "10% discount"
+      "title": "Introduction to Algorithms",
+      "description": "This course covers the fundamental concepts of data structures and algorithms explores data analysis of algorithms.",
+      "price": 25000,
+      "credit": "2"
     },
     {
       "id": 3,
       "image": "https://i.ibb.co/wSm2x0y/Rectangle-2-2.png",
-      "title": "Product 3",
-      "description": "Description for Product 3",
-      "price": 49.99,
-      "credit": "Free shipping"
+      "title": "Introduction to C++ for DSA",
+      "description": "This course builds upon C programming and introduces C++ with an emphasis on object-oriented programming (OOP).",
+      "price": 10000,
+      "credit": "10"
     },
     {
       "id": 4,
       "image": "https://i.ibb.co/8sKwqmL/Rectangle-2-3.png",
-      "title": "Product 4",
-      "description": "Description for Product 4",
-      "price": 39.99,
-      "credit": "Buy one, get one free"
+      "title": "Basic Data Structures",
+      "description": "This course covers the fundamental concepts of data structures and algorithms explores data analysis of algorithms.",
+      "price": 35000,
+      "credit": "5"
     },
     {
       "id": 5,
       "image": "https://i.ibb.co/2snzsWt/Rectangle-2-4.png",
-      "title": "Product 5",
-      "description": "Description for Product 5",
-      "price": 59.99,
-      "credit": "20% off"
+      "title": "Introduction to OOP Python",
+      "description": "Python programming courses cater to beginners and advanced learners.Python is known for its simplicity and readability.",
+      "price": 19000,
+      "credit": "5"
     },
     {
       "id": 6,
       "image": "https://i.ibb.co/g7nby9k/Rectangle-2-5.png",
-      "title": "Product 6",
-      "description": "Description for Product 6",
-      "price": 9.99,
-      "credit": "Earn loyalty points"
+      "title": "Software Engineering",
+      "description": "In this course, students learn the principles, methodologies, and best practices involved in creating high-quality software",
+      "price": 23000,
+      "credit": "2"
     },
     {
       "id": 7,
       "image": "https://i.ibb.co/TYG4fbf/Rectangle-2-6.png",
-      "title": "Product 7",
-      "description": "Description for Product 7",
-      "price": 79.99,
-      "credit": "Limited time offer"
+      "title": "AWS, Cloud Computing",
+      "description": "This cloud computing course covers the principles,technologies behind cloud services and learn about cloud models.",
+      "price": 35000,
+      "credit": "5"
     },
     {
       "id": 8,
       "image": "https://i.ibb.co/LgKvFTZ/Rectangle-3.png",
-      "title": "Product 8",
-      "description": "Description for Product 8",
-      "price": 69.99,
-      "credit": "15% cashback"
+      "title": "Database (MySQL)",
+      "description": "A MySQL database course introduces students to MySQL,an open-source relational database management system.",
+      "price": 19000,
+      "credit": "5"
     },
     {
       "id": 9,
       "image": "https://i.ibb.co/Qnb8cBH/Rectangle-3-1.png",
-      "title": "Product 9",
-      "description": "Description for Product 9",
-      "price": 99.99,
-      "credit": "Special edition"
+      "title": "Problem-Solving Part",
+      "description": "This problem-solving course is designed to enhance critical thinking,problem-solving techniques and algorithms.",
+      "price": 23000,
+      "credit": "2"
     }
   ]
   
