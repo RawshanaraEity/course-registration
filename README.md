@@ -1,8 +1,14 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Course Overview
 
-Currently, two official plugins are available:
+* This course is designed to equip you with essential skills in programming, software engineering, and database management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* This course covers a wide range of topics, including Programming Languages, Data Structures and Algorithms and Software Engineering Principles.
+
+* You can select various courses at a reasonable prices.
+
+
+
+## Discuss about managed the state in assignment project.
+To manage state and handle side effects in functional components i used useState and useEffect hooks.I used useState to declare and update state variables and management to functional components.And i used useEffect component for handles data fetching, loading.

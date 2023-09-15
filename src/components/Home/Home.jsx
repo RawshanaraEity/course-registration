@@ -44,7 +44,7 @@ const Home = () => {
             const remainingHour = 20 - credit;
 
             if(remainingHour < 0 || credit > 20){
-               return toast.error('You have not enough credit hour', {
+               return toast.error('You have not enough credit remaining hour', {
                     position: 'top-center',
                     autoClose: 2000,
                   });
