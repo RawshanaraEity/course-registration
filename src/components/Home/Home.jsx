@@ -2,10 +2,16 @@
 import { useEffect } from 'react';
 import './Home.css'
 import { useState } from 'react';
+import Cart from '../Cart/Cart';
+import { toast } from 'react-toastify';
+	
+
 
 
 const Home = () => {
-    const [allCourse, setAllCourse] = useState([])
+    const [allCourse, setAllCourse] = useState([]);
+    const [selectedCourse, setSelectedCourse] = useState([]);
+    
     
 
     useEffect(() =>{
@@ -15,6 +21,29 @@ const Home = () => {
     },[])
     
 
+    const handleSelectCourse = (course) =>{
+        const isSelected = selectedCourse.find(item => item.id === course.id)
+
+        let price = course.price
+        console.log(price)
+        if(isSelected){
+            toast.error('You have already selected this course', {
+                position: 'top-center',
+                autoClose: 2000,
+              });
+        }
+        else{
+            selectedCourse.forEach(item => {
+                price = price + item.price
+
+            })
+            const newSelectedCourse = [...selectedCourse, course];
+            setSelectedCourse(newSelectedCourse)
+        }
+       
+        // console.log('select',course)
+    }
+
     return (
         <div>
             <h1>Course Registration</h1>
@@ -22,7 +51,7 @@ const Home = () => {
                 <div className="card-container">
                     {
                         allCourse.map(course => (
-                            <div className="card">
+                            <div key={course.id} className="card">
                         <img src={course.image} alt="" />
                         <h2 className='card-title'>{course.title} </h2>
                         <p className='card-description'>{course.description}</p>
@@ -30,20 +59,17 @@ const Home = () => {
                             <p>$ Price: {course.price}</p>
                             <p>credit: {course.credit}hr</p>
                         </div>
-                        <button className='card-btn'>Select</button>
+                        <button onClick={() => handleSelectCourse(course)} className='card-btn'>Select</button>
                     </div>
                         ))
                     }
                 </div>
                 <div className="cart-container">
                     <div className="cart">
-                        <h4>Credit Hour Remaining 7 hr</h4>
-                        <hr />
-                        <h3>Course Name</h3>
-                        <hr />
-                        <p>Total Credit Hour:</p>
-                        <hr />
-                        <p>Total Price:</p>
+                        <Cart 
+                        selectedCourse={selectedCourse}
+
+                        ></Cart>
 
                     </div>
                 </div>
