@@ -1,6 +1,11 @@
-.selected-course{
-    font-size: 14px;
-    font-weight: 500;
-    text-align: start;
-    color: rgba(28, 27, 27, 0.60)
+.selected-course {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: start;
+  color: rgba(28, 27, 27, 0.6);
+}
+.remaining-hour{
+  color: #2f80ed;
+  font-size: 16px;
+  font-weight: 700;
 }

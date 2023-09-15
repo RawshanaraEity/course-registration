@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import './Cart.css'
 
-const Cart = ({selectedCourse}) => {
+const Cart = ({selectedCourse, totalPrice, totalCredit, remaining}) => {
     return (
         <div>
-            <h4>Credit Hour Remaining 7 hr</h4>
+            <h4 className='remaining-hour'>Credit Hour Remaining {remaining} hr</h4>
                         <hr />
                         <h3>Course Name</h3>
                         <ol className="selected-course">
@@ -17,9 +17,9 @@ const Cart = ({selectedCourse}) => {
                         }
                         </ol>
                         <hr />
-                        <p>Total Credit Hour:</p>
+                        <p>Total Credit Hour: {totalCredit}</p>
                         <hr />
-                        <p>Total Price:</p>
+                        <p>Total Price: {totalPrice} USD</p>
         </div>
     );
 };

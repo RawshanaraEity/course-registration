@@ -11,7 +11,9 @@ import { toast } from 'react-toastify';
 const Home = () => {
     const [allCourse, setAllCourse] = useState([]);
     const [selectedCourse, setSelectedCourse] = useState([]);
-    
+    const [totalPrice, setTotalPrice] = useState(0)
+    const [totalCredit, setTotalCredit] = useState(0)
+    const [remaining, setRemaining] = useState(20)
     
 
     useEffect(() =>{
@@ -24,10 +26,11 @@ const Home = () => {
     const handleSelectCourse = (course) =>{
         const isSelected = selectedCourse.find(item => item.id === course.id)
 
-        let price = course.price
-        console.log(price)
+        let price = course.price;
+        let credit = parseInt(course.credit)
+        console.log(credit)
         if(isSelected){
-            toast.error('You have already selected this course', {
+           return toast.error('You have already selected this course', {
                 position: 'top-center',
                 autoClose: 2000,
               });
@@ -35,8 +38,21 @@ const Home = () => {
         else{
             selectedCourse.forEach(item => {
                 price = price + item.price
-
+                credit = credit + parseInt(item.credit)
             })
+        
+            const remainingHour = 20 - credit;
+
+            if(remainingHour < 0 || credit > 20){
+               return toast.error('You have not enough credit hour', {
+                    position: 'top-center',
+                    autoClose: 2000,
+                  });
+            }
+            setTotalCredit(credit)
+            setRemaining(remainingHour)
+            setTotalPrice(price)
+
             const newSelectedCourse = [...selectedCourse, course];
             setSelectedCourse(newSelectedCourse)
         }
@@ -46,7 +62,7 @@ const Home = () => {
 
     return (
         <div>
-            <h1>Course Registration</h1>
+            <h1 className='header'>Course Registration</h1>
             <div className="container">
                 <div className="card-container">
                     {
@@ -68,7 +84,9 @@ const Home = () => {
                     <div className="cart">
                         <Cart 
                         selectedCourse={selectedCourse}
-
+                        totalPrice = {totalPrice}
+                        totalCredit = {totalCredit}
+                        remaining ={remaining}
                         ></Cart>
 
                     </div>
