@@ -1,6 +1,6 @@
-# React + Vite
+# Course Registration
 
-## Course Overview
+## About This Course Features
 
 * This course is designed to equip you with essential skills in programming, software engineering, and database management.
 
