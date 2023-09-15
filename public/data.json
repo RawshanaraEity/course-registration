@@ -11,7 +11,7 @@
       "id": 2,
       "image": "https://i.ibb.co/kDH80vv/Rectangle-2-1.png",
       "title": "Introduction to Algorithms",
-      "description": "This course covers the fundamental concepts of data structures and algorithms explores data analysis of algorithms.",
+      "description": "This course covers the fundamental concepts of data structures and data analysis of algorithms.",
       "price": 25000,
       "credit": "2"
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "image": "https://i.ibb.co/8sKwqmL/Rectangle-2-3.png",
       "title": "Basic Data Structures",
-      "description": "This course covers the fundamental concepts of data structures and algorithms explores data analysis of algorithms.",
+      "description": "This course covers the fundamental concepts of data structures and data analysis of algorithms.",
       "price": 35000,
       "credit": "5"
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "image": "https://i.ibb.co/g7nby9k/Rectangle-2-5.png",
       "title": "Software Engineering",
-      "description": "In this course, students learn the principles, methodologies, and best practices involved in creating high-quality software",
+      "description": "In this course, students learn the principles, methodologies, and best practices in creating high-quality software",
       "price": 23000,
       "credit": "2"
     },

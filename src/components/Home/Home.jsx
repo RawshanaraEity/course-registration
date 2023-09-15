@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './Home.css'
 import { useState } from 'react';
 
+
 const Home = () => {
     const [allCourse, setAllCourse] = useState([])
     
@@ -34,8 +35,17 @@ const Home = () => {
                         ))
                     }
                 </div>
-                <div className="cart">
+                <div className="cart-container">
+                    <div className="cart">
+                        <h4>Credit Hour Remaining 7 hr</h4>
+                        <hr />
+                        <h3>Course Name</h3>
+                        <hr />
+                        <p>Total Credit Hour:</p>
+                        <hr />
+                        <p>Total Price:</p>
 
+                    </div>
                 </div>
             </div>
         </div>
