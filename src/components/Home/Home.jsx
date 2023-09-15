@@ -28,7 +28,7 @@ const Home = () => {
 
         let price = course.price;
         let credit = parseInt(course.credit)
-        console.log(credit)
+        
         if(isSelected){
            return toast.error('You have already selected this course', {
                 position: 'top-center',
@@ -56,8 +56,6 @@ const Home = () => {
             const newSelectedCourse = [...selectedCourse, course];
             setSelectedCourse(newSelectedCourse)
         }
-       
-        // console.log('select',course)
     }
 
     return (
@@ -88,7 +86,6 @@ const Home = () => {
                         totalCredit = {totalCredit}
                         remaining ={remaining}
                         ></Cart>
-
                     </div>
                 </div>
             </div>
